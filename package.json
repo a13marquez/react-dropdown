@@ -1,0 +1,10 @@
+{
+  "name": "dropdown",
+  "version": "1.0.0",
+  "description": "Simple Dropdown React Component",
+  "main": "server.js",
+  "repository": "https://github.com/a13marquez/react-dropdown.git",
+  "author": "Álvaro Márquez <marquezalvaro13@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
