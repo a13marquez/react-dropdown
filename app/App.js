@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Dropdown from './components/Dropdown'
-
+import './css/app.css';
 
 const states = require('../db.json');
 
