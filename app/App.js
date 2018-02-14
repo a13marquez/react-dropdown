@@ -19,11 +19,10 @@ class App extends Component {
     getStates().then((data)=>{
       this.setState({
         states:data,
-        isLoading: false
+        isLoading:false
       });
     });
   }
-
   handleSelect(stateName) {
     this.setState({stateName:stateName});
   }
