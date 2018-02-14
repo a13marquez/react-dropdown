@@ -14,16 +14,21 @@ class App extends Component {
     } 
   }
   componentWillMount(){
-    //getStates().then((data)=>{
+    this.setState({isLoading:true});
+    getStates().then((data)=>{
       this.setState({
-        states:states
+        states:data,
+        isLoading:false
       });
-    //});
+    });
 
   }
 
   render() {
-    return <Dropdown states={this.state.states}/>
+    if (!isLoading){
+      return <Dropdown states={this.state.states}/>
+    }
+    return;
   }
 }
 

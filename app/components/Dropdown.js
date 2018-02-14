@@ -5,10 +5,8 @@ export default class Dropdown extends Component{
     super(props)
   }
   render(){
-    debugger;
     let keys = Object.keys(this.props.states);
     let drawOptions = (states) => {
-      debugger;
       let optionArray = [];
       for (let state in states) {
         optionArray = [...optionArray, 
